@@ -9,6 +9,7 @@ export HTTPPROXYENTRY="$5"
 export HTTSPPROXYENTRY="$6"
 export NOPROXYENTRY="$7"
 
+setenforce 0
 # Remove RHUI
 
 rm -f /etc/yum.repos.d/rh-cloud.repo
